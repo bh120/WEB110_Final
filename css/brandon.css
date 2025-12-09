@@ -32,8 +32,9 @@
 }
 .showtimes th {
     font-size: 24px;
-    font-family:"Creepster, cursive";
+    font-family: "Creepster", cursive;
     }
+
 
     .midnight {
         background-color: yellow;
