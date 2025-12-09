@@ -1,1 +1,11 @@
-    
+/* ====================================
+   VIDEO SECTION
+==================================== */
+.video-section {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 20 auto;
+    border: 8px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
