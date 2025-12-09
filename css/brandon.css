@@ -71,3 +71,11 @@ footnote {
     margin: 10px auto;
     cursor: pointer;
 }
+
+/* ====================================
+    ICON ROTATION ON HOVER
+==================================== */
+article img:hover {
+    transform: rotate(20deg);
+    transition: transform 0.3s ease-in-out;
+}
