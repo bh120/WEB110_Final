@@ -1,3 +1,5 @@
+/*
+
 /* ====================================
    VIDEO SECTION
 ==================================== */
@@ -43,6 +45,7 @@
 
 footnote {
     font-size: 12px;
+    text-align: center;
 }
 
 /* ====================================
@@ -85,7 +88,7 @@ article img:hover {
     Responsive Breakpoints
 ==================================== */
 
-/* vertocal layout*/
+/* vertical layout*/
 @media (max-width: 670px) {
     nav ul {
         flex-direction: column;
