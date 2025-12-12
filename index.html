@@ -1,141 +1,157 @@
 <!DOCTYPE html>
-<html lang= "en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Movie Night Classics</title>
-        <link rel="stylesheet" href="css/myersReset.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">    
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Classic Movie Theater</h1>
-            <h2>Monster Movie Marathon</h2>
-            <nav>
-                <ul>
-                    <li><a href = "index.html">Home</a></li>
-                    <li><a href = "#">Theater Information</a></li>
-                    <li><a href = "#">ShowTimes</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <!-- Add the video here-->
-            <section class="videoSection">
-                <video controls>
-                    <source src="video/Tarantula_trailer_512kb.mp4" type="video/mp4">
-                    <source src="video/Tarantula_trailer.webm" type="video/webm">
-                    Your browser does not support the video tag.
-                </video>
-            </section>
-            
-            
-            <section>
-                <h3>Movie Night Information</h3>
-                <article>
-                    <img src="img/trivia.png" alt="trivia icon">
-                    <h4>Trivia</h4>
-                    <p>See them before they were stars!</p>
-                    <p>This is the second uncredited movie of director/star Clint Eastwood</p>
-                </article> 
-                
-                <article>
-                    <img src="img/ticket.png" alt="movie ticket icon">
-                    <h4>Buy 3 get 1 free!</h4>
-                    <p>We have special offers for large groups!</p>  
-                    <p>Buy one ticket and get a free pass for one of our upcoming films!</p>
-                </article>     
-                <article>
-                    <img src="img/popcorn.png" alt="popcorn icon">
-                    <h4>Food &amp; Drink</h4>
-                    <p>We offer a wide selection of classic and modern movie snacks.  </p>  
-                    <p>Special options available for those with gluten allergies.</p>
-                </article>
-            </section>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Night Classics</title>
 
-            <!--- ADD THE SHOWTIMES TABLE HERE -->
-            <section class="showtimes">
-                <h3>Weekend Showtime</h3>
+    <!-- Reset -->
+    <link rel="stylesheet" href="css/myersReset.css">
 
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Showtimes</th>
-                            <th>Friday</th>
-                            <th>Saturday</th>
-                            <th>Sunday</th>
-                        </tr>
-                    </thead>
-                    
-                    <tbody>
-                        <tr>
-                            <td>9:00 PM</td>
-                            <td>Tarantula</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        
-                        <tr>
-                            <td>10:00 PM</td>
-                            <td></td>
-                            <td>Attack of the 50 foot woman</td>
-                            <td></td>
-                        </tr>
+    <!-- Teacher Styles -->
+    <link rel="stylesheet" href="css/style.css">
 
-                        </tr>
-                            <td>11:00pm</td>
-                            <td></td>
-                            <td></td>
-                            <td>The Blob</td>
-                        </tr>
+    <!-- Student Styles -->
+    <link rel="stylesheet" href="css/brandon.css">
 
-                        <tr>
-                            <td>Midnight</td>
-                            <td class=midnight">Midnight Madness!</td>
-                            <td class=midnight">Midnight Madness!</td>
-                            <td class=midnight">Midnight Madness!</td>
-                        </tr>
-                     </tbody>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
 
-                     <tfoot>
-                        <tr>
-                            <td colspan="4" class="footnote">Times subject to change</td>
-                        </tr>
-                        </tfoot>
-                </table>
-            </section>
+<body>
 
+<header>
+    <h1>Classic Movie Theater</h1>
+    <h2>Monster Movie Marathon</h2>
 
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Theater Information</a></li>
+            <li><a href="#">ShowTimes</a></li>
+        </ul>
+    </nav>
+</header>
 
-            <!---  ADD  FORM -->
-            <section class="mailing">
-                <h3>Events Mailing List</h3>
+<main>
 
-                <form>
-                    <label>Email (Required):
-                        <input type="email" required>
-                    </label>
-                     
-                    <p>Do you want to sign up for our movie event emails?</p>
+    <!-- VIDEO SECTION -->
+    <section class="videoSection">
+        <video controls>
+            <source src="video/Tarantula_trailer_512kb.mp4" type="video/mp4">
+            <source src="video/Tarantula_trailer.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+    </section>
 
+    <!-- MOVIE INFO -->
+    <h3>Movie Night Information</h3>
 
-                    <label>
-                        <input type="radio" name="signup" value="yes"> Yes
-                    </label>
+    <article>
+        <img src="img/trivia.png" alt="trivia icon">
+        <h4>Trivia</h4>
+        <p>See them before they were stars!</p>
+        <p>This is the second uncredited movie of director/star Clint Eastwood</p>
+    </article>
 
-                    <label>
-                        <input type="radio" name="signup" value="no"> No
-                    </label>
+    <article>
+        <img src="img/ticket.png" alt="ticket icon">
+        <h4>Buy 3 get 1 free!</h4>
+        <p>We have special offers for large groups!</p>
+        <p>Buy one ticket and get a free pass for one of our upcoming films!</p>
+    </article>
 
-                    <button type="submit">Submit Form</button>
-                </form>
-            </section>
-                       
+    <article>
+        <img src="img/popcorn.png" alt="popcorn icon">
+        <h4>Food &amp; Drink</h4>
+        <p>We offer a wide selection of classic and modern movie snacks.</p>
+        <p>Special options available for those with gluten allergies.</p>
+    </article>
 
+    <!-- SHOWTIMES TABLE -->
+    <section class="showtimes">
+        <h3>Weekend Showtimes</h3>
 
-            /*
+        <table>
+            <thead>
+                <tr>
+                    <th>Showtimes</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>9:00pm</td>
+                    <td>Tarantula</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>10:00pm</td>
+                    <td></td>
+                    <td>Attack of the 50 foot woman</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>11:00pm</td>
+                    <td></td>
+                    <td></td>
+                    <td>The Blob</td>
+                </tr>
+
+                <tr>
+                    <td>Midnight</td>
+                    <td class="midnight">Midnight Madness!</td>
+                    <td class="midnight">Midnight Madness!</td>
+                    <td class="midnight">Midnight Madness!</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="footnote">Times subject to change</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <!-- MAILING LIST -->
+    <section class="mailing">
+        <h3>Events Mailing List</h3>
+
+        <form>
+            <label>Email (Required):
+                <input type="email" required>
+            </label>
+
+            <p>Do you want to sign up for our movie event emails?</p>
+
+            <label>
+                <input type="radio" name="signup" value="yes"> Yes
+            </label>
+
+            <label>
+                <input type="radio" name="signup" value="no"> No
+            </label>
+
+            <button type="submit">Submit Form</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    © 2025 – Final Project – Brandon Harmon
+</footer>
+
+</body>
+</html>
